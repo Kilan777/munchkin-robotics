@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Munchkin Robotics — Talk to it. It packs the order.</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="icon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="icon-180.png">
 <style>
 @font-face{
   font-family:'MR Display';
@@ -192,7 +196,9 @@ footer{ border-top:1px solid var(--line); padding:44px 0 56px; }
 .footer-links a:hover{ color:var(--ink); }
 
 /* ---------- text-only stacked logo ---------- */
-.brand-logo{ display:flex; flex-direction:column; line-height:0.92; gap:1px; }
+.brand-logo{ display:flex; align-items:center; gap:9px; }
+.brand-mark{ color:var(--blue); flex:none; }
+.logo-text{ display:flex; flex-direction:column; line-height:0.92; gap:1px; }
 .logo-line1{ font-family:'MR Display'; font-weight:700; font-size:1rem; color:var(--blue); letter-spacing:-0.01em; }
 .logo-line2{ font-family:'MR Display'; font-weight:700; font-size:0.62rem; color:var(--blue); letter-spacing:0.01em; opacity:0.82; }
 .footer-brand-blue{ color:var(--blue); }
@@ -222,8 +228,15 @@ footer{ border-top:1px solid var(--line); padding:44px 0 56px; }
 <nav class="nav">
   <div class="wrap nav-inner">
     <a class="brand brand-logo" href="#top" aria-label="Munchkin Robotics home">
-      <span class="logo-line1">Munchkin</span>
-      <span class="logo-line2">Robotics</span>
+      <svg class="brand-mark" width="26" height="26" viewBox="0 0 225 220" fill="none" aria-hidden="true">
+        <polyline points="28,198 28,26 108,110 188,26 188,133" stroke="currentColor" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M 188,133 Q 170,158 164,196" stroke="currentColor" stroke-width="22" stroke-linecap="round"/>
+        <path d="M 188,133 Q 200,158 206,196" stroke="currentColor" stroke-width="22" stroke-linecap="round"/>
+      </svg>
+      <span class="logo-text">
+        <span class="logo-line1">Munchkin</span>
+        <span class="logo-line2">Robotics</span>
+      </span>
     </a>
     <div class="nav-links">
       <a href="#vision">Why</a>
@@ -302,9 +315,8 @@ footer{ border-top:1px solid var(--line); padding:44px 0 56px; }
       <div class="book-card">
         <p class="kicker">Get in touch</p>
         <h2>Bring us your worst station.</h2>
-        <p>We're piloting the arm in real shops this year — takeout counters, prep stations, anywhere the same task happens two hundred times a day. If that's you, talk to Kilan directly.</p>
-        <a class="btn btn-primary" href="mailto:kilanrou@gmail.com?subject=Munchkin%20Robotics%20%E2%80%94%20Let%27s%20talk&body=Hi%20Kilan%2C%0A%0AI%27d%20like%20to%20talk%20about%20piloting%20the%20arm%20at%20our%20shop.%0A%0A">Email Kilan</a>
-        <p class="book-note">Calendly's on its way — this opens an email to Kilan today.</p>
+        <p>We're piloting the arm in real shops this year — takeout counters, prep stations, anywhere the same task happens two hundred times a day. Want to try it out?</p>
+        <a class="btn btn-primary" href="mailto:info@munchkinrobotics.com?subject=Munchkin%20Robotics%20%E2%80%94%20Let%27s%20talk&body=Hi%2C%0A%0AI%27d%20like%20to%20talk%20about%20piloting%20the%20arm%20at%20our%20shop.%0A%0A">Contact us here</a>
       </div>
     </div>
   </section>
@@ -347,8 +359,8 @@ footer{ border-top:1px solid var(--line); padding:44px 0 56px; }
       <p class="footer-tag">Affordable, plain-English robot arms for small shops and restaurants.</p>
     </div>
     <div class="footer-links">
-      <a href="mailto:kilanrou@gmail.com">kilanrou@gmail.com</a>
-      <span>munchkly.com</span>
+      <a href="mailto:info@munchkinrobotics.com">info@munchkinrobotics.com</a>
+      <span>munchkinrobotics.com</span>
       <span>&copy; 2026 Munchkin Robotics</span>
     </div>
   </div>
