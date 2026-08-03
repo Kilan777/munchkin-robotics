@@ -168,6 +168,10 @@ section{ padding:100px 0; }
 .founder-avatar{
   width:52px; height:52px; border-radius:50%; background:var(--blue-pale); color:var(--blue);
   display:flex; align-items:center; justify-content:center; font-family:'Inter'; font-weight:700; font-size:1.1rem; flex:none;
+  overflow:hidden;
+}
+.founder-avatar img{
+  width:100%; height:100%; object-fit:cover; display:block;
 }
 .founder-name{ font-family:'Inter'; font-weight:700; font-size:1.12rem; }
 .founder-role{ font-weight:500; font-size:.86rem; color:var(--blue); margin-top:2px; }
@@ -316,7 +320,7 @@ footer{ border-top:1px solid var(--line); padding:44px 0 56px; }
       <div class="founders-grid">
         <div class="founder-card">
           <div class="founder-head">
-            <div class="founder-avatar">KR</div>
+            <div class="founder-avatar"><img src="images/kilan.jpg" alt="Kilan Rougeot" loading="lazy"></div>
             <div>
               <div class="founder-name">Kilan Rougeot</div>
               <div class="founder-role">CEO — Mechanical, Electronics, Product</div>
@@ -326,7 +330,7 @@ footer{ border-top:1px solid var(--line); padding:44px 0 56px; }
         </div>
         <div class="founder-card">
           <div class="founder-head">
-            <div class="founder-avatar">DS</div>
+            <div class="founder-avatar"><img src="images/dhvan.jpg" alt="Dhvan Shah" loading="lazy"></div>
             <div>
               <div class="founder-name">Dhvan Shah</div>
               <div class="founder-role">CTO — Controls, Kinematics, AI</div>
